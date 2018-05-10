@@ -66,5 +66,5 @@
 
 
 
-## 文档链接
+## 文档地址
 - [API文档](https://www.253.com/#/document/1)
