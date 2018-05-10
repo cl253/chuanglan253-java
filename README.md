@@ -32,8 +32,8 @@
         String smsSingleRequestServerUrl = "https://xxx/msg/send/json";
         //短信内容
         String msg = "【253云通讯】你好,你的验证码是123456";
-        //手机号码
-        String phone = "159********";
+        //手机号码（群发手机号码之间使用英文逗号隔开）
+        String phone = "159********";
         //状态报告
         String report= "true";
 
