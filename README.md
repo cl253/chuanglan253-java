@@ -55,10 +55,12 @@
 
 ## 源码说明 chuanglan253-java-sdk
 - 工程使用maven构造，jdk1.7 or higher
+- 编码要求为utf-8,请先将编辑器底层语言设置为utf-8
+- 带有特殊字符的内容无法直接提交,需先将特殊字符进行urlencode编码后方能提交
 - 开发API可参考单元测试 docx/253云通讯PaaS短信云接口说明（JSON版）.docx
 
 ## 文档链接
 - [api文档](https://www.253.com/#/document/1)
 
-## 客服链接
+## 联系客服
 - [创蓝客服 链接](https://kefu253.udesk.cn/im_client/?web_plugin_id=47820={"name":"github"})
