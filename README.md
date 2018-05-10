@@ -59,10 +59,10 @@
 - 带有特殊字符的内容无法直接提交,需先将特殊字符进行urlencode编码后方能提交
 - 开发API可参考单元测试 docx/253云通讯PaaS短信云接口说明（JSON版）.docx
 
-## 文档链接
-- [api文档](https://www.253.com/#/document/1)
-
 ## 联系客服
 - [创蓝客服 链接](https://kefu253.udesk.cn/im_client/?web_plugin_id=47820={"name":"github"})
 
 <img src="docx/20180510152730.jpg" width="15%" alt="创蓝客服"/>
+
+## 文档链接
+- [api文档](https://www.253.com/#/document/1)
