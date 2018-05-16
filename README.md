@@ -1,4 +1,4 @@
-# chuanglan253-java-sdk
+# chuanglan253-java
 ================================
 
 [创蓝](https://www.253.com/) SDK
