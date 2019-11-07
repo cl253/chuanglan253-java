@@ -13,9 +13,9 @@ import com.chuanglan.util.ChuangLanSmsUtil;
 public class SmsVariableDemo {
     public static final String charset = "utf-8";
     // 用户平台API账号(非登录账号,示例:N1234567)
-    public static String account = "";
+    public static final String account = "";
     // 用户平台API密码(非登录密码)
-    public static String pswd = "";
+    public static final String pswd = "";
 
     public static void main(String[] args) throws UnsupportedEncodingException {
 
@@ -28,7 +28,7 @@ public class SmsVariableDemo {
         //状态报告
         String report= "true";
 
-        SmsVariableRequest smsVariableRequest=new SmsVariableRequest(account, pswd, msg, params, report);
+        SmsVariableRequest smsVariableRequest=new SmsVariableRequest.Builder(account, pswd, msg, params).setReport(report).build();
 
         String requestJson = JSON.toJSONString(smsVariableRequest);
 
